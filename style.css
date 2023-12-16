@@ -14,7 +14,7 @@ body {
 .option-button {
     padding: 40px 48px;
     font-size: 16px;
-    background: url('images/optionBtn.png') no-repeat;
+    background: url('optionBtn.png') no-repeat;
     background-size: cover;
     border: none;
     border-radius: 5px;
@@ -42,37 +42,37 @@ body {
 }
 
 .dropdown-content .home {
-    background: url('images/homeBtn.jpg') no-repeat;
+    background: url('homeBtn.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .dropdown-content .sound {
-    background: url('images/voiceBtn.jpg') no-repeat;
+    background: url('voiceBtn.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .dropdown-content .music {
-    background: url('images/musicMuteBtn.png') no-repeat;
+    background: url('musicMuteBtn.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .dropdown-content .exit {
-    background: url('images/ArrowBtn.jpg') no-repeat;
+    background: url('ArrowBtn.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .dropdown-content .repeat {
-    background: url('images/repeatBtn.jpg') no-repeat;
+    background: url('repeatBtn.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .dropdown-content .achievement {
-    background: url('images/achieveBtn.jpg') no-repeat;
+    background: url('achieveBtn.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -143,7 +143,7 @@ body {
 .play-duck {
     width: 400px;
     height: 250px;
-    background-image: url('images/duckSwim.png');
+    background-image: url('duckSwim.png');
     top: 200px;
     left: 30px;
 }
@@ -151,7 +151,7 @@ body {
 .play-cat {
     width: 400px;
     height: 300px;
-    background-image: url('images/catSit.png');
+    background-image: url('catSit.png');
     top: 25px;
     left: 250px;
     transform: translateX(-50%);
@@ -160,7 +160,7 @@ body {
 .play-chicken {
     width: 260px;
     height: 240px;
-    background-image: url('images/chicken.png');
+    background-image: url('chicken.png');
     top: 200px;
     left: 180px;
     transform: translateX(-50%);
@@ -169,7 +169,7 @@ body {
 .play-dog {
     width: 260px;
     height: 300px;
-    background-image: url('images/dogSmile.png');
+    background-image: url('dogSmile.png');
     top: 50px;
     left: 50px;
 }
