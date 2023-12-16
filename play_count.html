@@ -11,7 +11,7 @@
             justify-content: center;
             align-items: center;
             position: relative;
-            background: url('images/bg3.png') no-repeat center center fixed; 
+            background: url('bg3.png') no-repeat center center fixed; 
             background-size: cover;
         }
 
@@ -139,7 +139,7 @@
         <br><br>
         <button type="submit" onclick="confirmAnswer()" id="confirmBtn">Confirm</button>
     </div>
-    <img src="images/0.png" id="counter" alt="0">
+    <img src="0.png" id="counter" alt="0">
 </div>
 
 <div class="play-buttons-container">
@@ -169,7 +169,7 @@
             }
 
             // Update the image in the .number-display element
-            document.getElementById('counter').src = `images/${counter}.png`;
+            document.getElementById('counter').src = `${counter}.png`;
         }
     }
 
