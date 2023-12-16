@@ -1,0 +1,166 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                justify-content: center;
+                position: relative;
+                background: url('images/bg2.png') no-repeat center center fixed;
+                background-size: cover;
+            }
+
+            .level-buttons-container {
+                display: block;
+                flex-direction: column;
+                align-items:center;
+                position: relative;
+                right: 20%;
+                margin-top: 320px;
+                margin-right: 10px;
+            }
+
+            /* Bold Tag */
+            .level-buttons-container .level-count b{
+                font-size:70px;
+            }
+
+            /* Bold Tag */
+            .level-buttons-container .level-quiz b{
+                font-size:70px;
+            }
+
+            /* Bold Tag */
+            .level-buttons-container .level-colour b{
+                font-size:70px;
+            }
+
+            /* Bold Tag */
+            .level-buttons-container .level-match b{
+                font-size:70px;
+            }
+
+            /* Level buttons container */
+            .level-buttons-container{
+                transform:translatex(51px) translatey(-69px);
+                flex:0 1 auto;
+                align-self:center;
+            }
+
+            .level-quiz,
+            .level-count,
+            .level-match,
+            .level-colour {
+                font-size: 35px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                background-color: #0000;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+                text-shadow: 3px 3px 5px white;
+                margin: 19px ;
+            }
+
+            @media (max-width: 767px) {
+                body {
+                    margin: 0;
+                    padding: 0;
+                    justify-content: center;
+                    position: relative;
+                    background: url('images/bg2.png') no-repeat center center fixed;
+                    background-size: 767px 100%;
+                }
+
+                .level-buttons-container {
+                    display: block;
+                    flex-direction: column;
+                    align-items:center;
+                    position: relative;
+                    right: 20%;
+                    margin-top: 320px;
+                    margin-right: 10px;
+                }
+
+                /* Bold Tag */
+                .level-buttons-container .level-count b{
+                    font-size:35px;
+                }
+
+                /* Bold Tag */
+                .level-buttons-container .level-quiz b{
+                    font-size:35px;
+                }
+
+                /* Bold Tag */
+                .level-buttons-container .level-colour b{
+                    font-size:35px;
+                }
+
+                /* Bold Tag */
+                .level-buttons-container .level-match b{
+                    font-size:35px;
+                }
+
+                /* Level buttons container */
+                .level-buttons-container{
+                    transform:translatex(25px) translatey(-90px);
+                    flex:0 1 auto;
+                    align-self:center;
+                }
+
+                .level-quiz,
+                .level-count,
+                .level-match,
+                .level-colour {
+                    font-size: 35px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    background-color: #0000;
+                    cursor: pointer;
+                    border: none;
+                    border-radius: 5px;
+                    text-shadow: 3px 3px 5px white;
+                    margin: 19px ;
+                }
+            }
+        </style>
+        <title>Games</title>
+    </head>
+    <body>
+        <div class="dropdown">
+            <button onclick="toggleDropdown()" class="option-button"></button>
+            <div class="dropdown-content">
+                <button onclick="optionClicked('home')" id="home" class="home"></button>
+                <button onclick="optionClicked('sound')" id="sound" class="sound"></button>
+                <button onclick="optionClicked('music')" id="music" class="music"></button>
+                <button onclick="optionClicked('exit')" id="exit" class="exit"></button>
+            </div>
+        </div>
+
+        <div class="level-buttons-container">
+            <button onclick="startLevel('Quiz')" class="level-quiz"><b>Quiz</b></button>
+            <button onclick="startLevel('Count')" class="level-count"><b>Count</b></button>
+            <br>
+            <button onclick="startLevel('Match')" class="level-match"><b>Match</b></button>
+            <button onclick="startLevel('Colour')" class="level-colour"><b>Colour</b></button>
+        </div>
+
+        <script src="script.js"></script>
+        <script>
+            function startLevel(level) {
+                if(level === 'Quiz'){
+                    window.location.href = "play_quiz.html";
+                } else if (level === 'Count'){
+                    window.location.href = "play_count.html";
+                } else if (level === 'Match'){
+                    window.location.href = "play_match.html";
+                } else if (level === 'Colour'){
+                    window.location.href = "play_colour.html";
+                }
+            }
+        </script>
+    </body>
+    </html>
