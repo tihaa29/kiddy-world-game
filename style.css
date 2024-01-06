@@ -141,16 +141,16 @@ body {
 }
 
 .play-duck {
-    width: 400px;
-    height: 250px;
+    max-width: 100%;
+    height: auto;
     background-image: url('duckSwim.png');
     top: 200px;
     left: 30px;
 }
 
 .play-cat {
-    width: 400px;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
     background-image: url('catSit.png');
     top: 25px;
     left: 250px;
@@ -158,8 +158,8 @@ body {
 }
 
 .play-chicken {
-    width: 260px;
-    height: 240px;
+    max-width: 100%;
+    height: auto;
     background-image: url('chicken.png');
     top: 200px;
     left: 180px;
@@ -167,8 +167,8 @@ body {
 }
 
 .play-dog {
-    width: 260px;
-    height: 300px;
+   max-width: 100%;
+    height: auto;
     background-image: url('dogSmile.png');
     top: 50px;
     left: 50px;
