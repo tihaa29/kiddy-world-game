@@ -57,7 +57,7 @@ function optionClicked(id) {
         window.history.back() = "level.html";   
     } else if (id === "repeat"){
         clickAudio.play();
-         window.history.back()" "; // Go back to the previous page
+        window.location.reload(); // Refresh the current page
     }
 }
 
