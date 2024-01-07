@@ -54,10 +54,10 @@ function optionClicked(id) {
         }
     } else if (id === "exit"){
         clickAudio.play();
-        window.location.href = "index.html";
+        window.location.href = "level.html";   
     } else if (id === "repeat"){
         clickAudio.play();
-         window.history.back(); // Go back to the previous page
+         window.history.back()" "; // Go back to the previous page
     }
 }
 
