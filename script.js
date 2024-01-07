@@ -57,7 +57,7 @@ function optionClicked(id) {
         window.location.href = "index.html";
     } else if (id === "repeat"){
         clickAudio.play();
-        window.location.href = "";//refresh page
+         window.history.back(); // Go back to the previous page
     }
 }
 
