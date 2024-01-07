@@ -54,7 +54,7 @@ function optionClicked(id) {
         }
     } else if (id === "exit"){
         clickAudio.play();
-        window.location.href = "https://www.google.com";
+        window.location.href = "index.html";
     } else if (id === "repeat"){
         clickAudio.play();
         window.location.href = "";//refresh page
