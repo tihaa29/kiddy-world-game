@@ -54,7 +54,7 @@ function optionClicked(id) {
         }
     } else if (id === "exit"){
         clickAudio.play();
-        window.location.href = "level.html";   
+        window.history.back() = "level.html";   
     } else if (id === "repeat"){
         clickAudio.play();
          window.history.back()" "; // Go back to the previous page
